@@ -1,0 +1,10 @@
+a=int(input("TAMIL:"))
+b=int(input("ENGLISH:"))
+c=int(input("MATHS:"))
+d=int(input("SCIENCE:"))
+e=int(input("SOCIAL:"))
+f=(a+b+c+d+e)/5
+if(f<35):
+    print("Additional class is required")
+else:
+    print("You are good to go")
