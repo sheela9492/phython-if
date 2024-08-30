@@ -1,0 +1,6 @@
+salary=int(input("salary:"))
+age=int(input("age:"))
+if(salary>=20000 or age<=25):
+    print("YOU ARE ELIGIBLE")
+else:
+    print("YOU ARE NOY ELIGBLE")
